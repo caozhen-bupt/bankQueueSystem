@@ -1,0 +1,528 @@
+T=  7
+WIN1:State=    WAITING,ServNo=001,ServLen=   /   ,RestLen=   /   
+WIN2:State=    WAITING,ServNo=002,ServLen=   /   ,RestLen=   /   
+WIN3:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN4:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=
+VIPlist=
+T=  8
+WIN1:State=    WAITING,ServNo=001,ServLen=   /   ,RestLen=   /   
+WIN2:State=    WAITING,ServNo=002,ServLen=   /   ,RestLen=   /   
+WIN3:State=    WAITING,ServNo=003,ServLen=   /   ,RestLen=   /   
+WIN4:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=004->005->006->007->008->009->010->011->012->013->014->015
+VIPlist=
+T=  9
+WIN1:State=    SERVING,ServNo=001,ServLen=  0/ 10,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen=  0/ 25,RestLen=   /   
+WIN3:State=    WAITING,ServNo=003,ServLen=   /   ,RestLen=   /   
+WIN4:State=    WAITING,ServNo=004,ServLen=   /   ,RestLen=   /   
+WIN5:State=    WAITING,ServNo=005,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=006->007->008->009->010->011->012->013->014->015
+VIPlist=
+T= 10
+WIN1:State=    SERVING,ServNo=001,ServLen=  1/ 10,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen=  1/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen=  0/ 19,RestLen=   /   
+WIN4:State=    WAITING,ServNo=004,ServLen=   /   ,RestLen=   /   
+WIN5:State=    WAITING,ServNo=005,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=006->007->008->009->010->011->012->013->014->015->016->017
+VIPlist=
+T= 12
+WIN1:State=    SERVING,ServNo=001,ServLen=  3/ 10,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen=  3/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen=  2/ 19,RestLen=   /   
+WIN4:State=    SERVING,ServNo=004,ServLen=  0/ 12,RestLen=   /   
+WIN5:State=    WAITING,ServNo=005,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=006->007->008->009->010->011->012->013->014->015->016->017
+VIPlist=
+T= 13
+WIN1:State=    SERVING,ServNo=001,ServLen=  4/ 10,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen=  4/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen=  3/ 19,RestLen=   /   
+WIN4:State=    SERVING,ServNo=004,ServLen=  1/ 12,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen=  0/ 21,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=006->007->008->009->010->011->012->013->014->015->016->017
+VIPlist=
+T= 14
+WIN1:State=    SERVING,ServNo=001,ServLen=  5/ 10,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen=  5/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen=  4/ 19,RestLen=   /   
+WIN4:State=    SERVING,ServNo=004,ServLen=  2/ 12,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen=  1/ 21,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=    WAITING,ServNo=V01,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=006->007->008->009->010->011->012->013->014->015->016->017
+VIPlist=
+T= 15
+WIN1:State=    SERVING,ServNo=001,ServLen=  6/ 10,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen=  6/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen=  5/ 19,RestLen=   /   
+WIN4:State=    SERVING,ServNo=004,ServLen=  3/ 12,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen=  2/ 21,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen=  0/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=006->007->008->009->010->011->012->013->014->015->016->017
+VIPlist=
+T= 20
+WIN1:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 11/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen= 10/ 19,RestLen=   /   
+WIN4:State=    SERVING,ServNo=004,ServLen=  8/ 12,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen=  7/ 21,RestLen=   /   
+WIN6:State=    WAITING,ServNo=006,ServLen=   /   ,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen=  5/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=007->008->009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 21
+WIN1:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 12/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen= 11/ 19,RestLen=   /   
+WIN4:State=    SERVING,ServNo=004,ServLen=  9/ 12,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen=  8/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen=  0/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen=  6/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=007->008->009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 22
+WIN1:State=    WAITING,ServNo=007,ServLen=   /   ,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 13/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen= 12/ 19,RestLen=   /   
+WIN4:State=    SERVING,ServNo=004,ServLen= 10/ 12,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen=  9/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen=  1/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen=  7/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=008->009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 24
+WIN1:State=    SERVING,ServNo=007,ServLen=  0/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 15/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen= 14/ 19,RestLen=   /   
+WIN4:State=    SERVING,ServNo=004,ServLen= 12/ 12,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen= 11/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen=  3/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen=  9/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=008->009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 25
+WIN1:State=    SERVING,ServNo=007,ServLen=  1/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 16/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen= 15/ 19,RestLen=   /   
+WIN4:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen= 12/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen=  4/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 10/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=008->009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 26
+WIN1:State=    SERVING,ServNo=007,ServLen=  2/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 17/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen= 16/ 19,RestLen=   /   
+WIN4:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen= 13/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen=  5/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 11/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=008->009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 27
+WIN1:State=    SERVING,ServNo=007,ServLen=  3/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 18/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen= 17/ 19,RestLen=   /   
+WIN4:State=    WAITING,ServNo=008,ServLen=   /   ,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen= 14/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen=  6/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 12/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 29
+WIN1:State=    SERVING,ServNo=007,ServLen=  5/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 20/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=003,ServLen= 19/ 19,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen=  0/ 16,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen= 16/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen=  8/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 14/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 30
+WIN1:State=    SERVING,ServNo=007,ServLen=  6/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 21/ 25,RestLen=   /   
+WIN3:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen=  1/ 16,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen= 17/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen=  9/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 15/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 31
+WIN1:State=    SERVING,ServNo=007,ServLen=  7/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 22/ 25,RestLen=   /   
+WIN3:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen=  2/ 16,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen= 18/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 10/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 16/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=009->010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 32
+WIN1:State=    SERVING,ServNo=007,ServLen=  8/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 23/ 25,RestLen=   /   
+WIN3:State=    WAITING,ServNo=009,ServLen=   /   ,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen=  3/ 16,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen= 19/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 11/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 17/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 34
+WIN1:State=    SERVING,ServNo=007,ServLen= 10/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=002,ServLen= 25/ 25,RestLen=   /   
+WIN3:State=    SERVING,ServNo=009,ServLen=  0/ 11,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen=  5/ 16,RestLen=   /   
+WIN5:State=    SERVING,ServNo=005,ServLen= 21/ 21,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 13/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 19/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 35
+WIN1:State=    SERVING,ServNo=007,ServLen= 11/ 29,RestLen=   /   
+WIN2:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN3:State=    SERVING,ServNo=009,ServLen=  1/ 11,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen=  6/ 16,RestLen=   /   
+WIN5:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 14/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 20/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 36
+WIN1:State=    SERVING,ServNo=007,ServLen= 12/ 29,RestLen=   /   
+WIN2:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN3:State=    SERVING,ServNo=009,ServLen=  2/ 11,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen=  7/ 16,RestLen=   /   
+WIN5:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 15/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 21/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=010->011->012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 37
+WIN1:State=    SERVING,ServNo=007,ServLen= 13/ 29,RestLen=   /   
+WIN2:State=    WAITING,ServNo=010,ServLen=   /   ,RestLen=   /   
+WIN3:State=    SERVING,ServNo=009,ServLen=  3/ 11,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen=  8/ 16,RestLen=   /   
+WIN5:State=    WAITING,ServNo=011,ServLen=   /   ,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 16/ 27,RestLen=   /   
+WIN7:State=    SERVING,ServNo=V01,ServLen= 22/ 22,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 38
+WIN1:State=    SERVING,ServNo=007,ServLen= 14/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen=  0/ 23,RestLen=   /   
+WIN3:State=    SERVING,ServNo=009,ServLen=  4/ 11,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen=  9/ 16,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen=  0/ 28,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 17/ 27,RestLen=   /   
+WIN7:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 39
+WIN1:State=    SERVING,ServNo=007,ServLen= 15/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen=  1/ 23,RestLen=   /   
+WIN3:State=    SERVING,ServNo=009,ServLen=  5/ 11,RestLen=   /   
+WIN4:State=    SERVING,ServNo=008,ServLen= 10/ 16,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen=  1/ 28,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 18/ 27,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 46
+WIN1:State=    SERVING,ServNo=007,ServLen= 22/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen=  8/ 23,RestLen=   /   
+WIN3:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN4:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen=  8/ 28,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 25/ 27,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 47
+WIN1:State=    SERVING,ServNo=007,ServLen= 23/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen=  9/ 23,RestLen=   /   
+WIN3:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN4:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen=  9/ 28,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 26/ 27,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=012->013->014->015->016->017->018->019->020
+VIPlist=
+T= 48
+WIN1:State=    SERVING,ServNo=007,ServLen= 24/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen= 10/ 23,RestLen=   /   
+WIN3:State=    WAITING,ServNo=012,ServLen=   /   ,RestLen=   /   
+WIN4:State=    WAITING,ServNo=013,ServLen=   /   ,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 10/ 28,RestLen=   /   
+WIN6:State=    SERVING,ServNo=006,ServLen= 27/ 27,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=014->015->016->017->018->019->020
+VIPlist=
+T= 49
+WIN1:State=    SERVING,ServNo=007,ServLen= 25/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen= 11/ 23,RestLen=   /   
+WIN3:State=    WAITING,ServNo=012,ServLen=   /   ,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen=  0/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 11/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=014->015->016->017->018->019->020
+VIPlist=
+T= 51
+WIN1:State=    SERVING,ServNo=007,ServLen= 27/ 29,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen= 13/ 23,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen=  0/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen=  2/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 13/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=014->015->016->017->018->019->020
+VIPlist=
+T= 54
+WIN1:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen= 16/ 23,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen=  3/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen=  5/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 16/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=014->015->016->017->018->019->020
+VIPlist=
+T= 55
+WIN1:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen= 17/ 23,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen=  4/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen=  6/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 17/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=014->015->016->017->018->019->020
+VIPlist=
+T= 56
+WIN1:State=    WAITING,ServNo=014,ServLen=   /   ,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen= 18/ 23,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen=  5/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen=  7/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 18/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=015->016->017->018->019->020
+VIPlist=
+T= 57
+WIN1:State=    SERVING,ServNo=014,ServLen=  0/ 11,RestLen=   /   
+WIN2:State=    SERVING,ServNo=010,ServLen= 19/ 23,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen=  6/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen=  8/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 19/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=015->016->017->018->019->020
+VIPlist=
+T= 62
+WIN1:State=    SERVING,ServNo=014,ServLen=  5/ 11,RestLen=   /   
+WIN2:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 11/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen= 13/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 24/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=015->016->017->018->019->020
+VIPlist=
+T= 63
+WIN1:State=    SERVING,ServNo=014,ServLen=  6/ 11,RestLen=   /   
+WIN2:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 12/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen= 14/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 25/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=015->016->017->018->019->020
+VIPlist=
+T= 64
+WIN1:State=    SERVING,ServNo=014,ServLen=  7/ 11,RestLen=   /   
+WIN2:State=    WAITING,ServNo=015,ServLen=   /   ,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 13/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen= 15/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 26/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=016->017->018->019->020
+VIPlist=
+T= 65
+WIN1:State=    SERVING,ServNo=014,ServLen=  8/ 11,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen=  0/ 30,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 14/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen= 16/ 28,RestLen=   /   
+WIN5:State=    SERVING,ServNo=011,ServLen= 27/ 28,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=016->017->018->019->020
+VIPlist=
+T= 67
+WIN1:State=    SERVING,ServNo=014,ServLen= 10/ 11,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen=  2/ 30,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 16/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen= 18/ 28,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=016->017->018->019->020
+VIPlist=
+T= 69
+WIN1:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen=  4/ 30,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 18/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen= 20/ 28,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=016->017->018->019->020
+VIPlist=
+T= 70
+WIN1:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen=  5/ 30,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 19/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen= 21/ 28,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=016->017->018->019->020
+VIPlist=
+T= 71
+WIN1:State=    WAITING,ServNo=016,ServLen=   /   ,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen=  6/ 30,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 20/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen= 22/ 28,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=017->018->019->020
+VIPlist=
+T= 73
+WIN1:State=    SERVING,ServNo=016,ServLen=  0/ 19,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen=  8/ 30,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 22/ 28,RestLen=   /   
+WIN4:State=    SERVING,ServNo=013,ServLen= 24/ 28,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=017->018->019->020
+VIPlist=
+T= 78
+WIN1:State=    SERVING,ServNo=016,ServLen=  5/ 19,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen= 13/ 30,RestLen=   /   
+WIN3:State=    SERVING,ServNo=012,ServLen= 27/ 28,RestLen=   /   
+WIN4:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=017->018->019->020
+VIPlist=
+T= 80
+WIN1:State=    SERVING,ServNo=016,ServLen=  7/ 19,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen= 15/ 30,RestLen=   /   
+WIN3:State=       OVER,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN4:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=017->018->019->020
+VIPlist=
+T= 81
+WIN1:State=    SERVING,ServNo=016,ServLen=  8/ 19,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen= 16/ 30,RestLen=   /   
+WIN3:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN4:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=017->018->019->020
+VIPlist=
+T= 82
+WIN1:State=    SERVING,ServNo=016,ServLen=  9/ 19,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen= 17/ 30,RestLen=   /   
+WIN3:State=    WAITING,ServNo=017,ServLen=   /   ,RestLen=   /   
+WIN4:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=018->019->020
+VIPlist=
+T= 83
+WIN1:State=    SERVING,ServNo=016,ServLen= 10/ 19,RestLen=   /   
+WIN2:State=    SERVING,ServNo=015,ServLen= 18/ 30,RestLen=   /   
+WIN3:State=    SERVING,ServNo=017,ServLen=  0/ 22,RestLen=   /   
+WIN4:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN5:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN6:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN7:State=       IDLE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+WIN8:State=      CLOSE,ServNo=   ,ServLen=   /   ,RestLen=   /   
+NormList=018->019->020
+VIPlist=

@@ -1,0 +1,58 @@
+# Project: bank
+# Makefile created by Dev-C++ 5.7.1
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o KeyboardInput.o maintain.o configuration.o state_trans.o strategy.o FileInput.o outputmethod.o DrawWindow.o AddClient.o open_door.o
+LINKOBJ  = main.o KeyboardInput.o maintain.o configuration.o state_trans.o strategy.o FileInput.o outputmethod.o DrawWindow.o AddClient.o open_door.o
+LIBS     = -L"C:/DevCpp/64λ/MinGW64/lib32" -L"C:/DevCpp/64λ/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc libegg22.a -m32 -g3
+INCS     = -I"C:/DevCpp/64λ/MinGW64/include" -I"C:/DevCpp/64λ/MinGW64/x86_64-w64-mingw32/include" -I"C:/DevCpp/64λ/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"C:/DevCpp/64λ/MinGW64/include" -I"C:/DevCpp/64λ/MinGW64/x86_64-w64-mingw32/include" -I"C:/DevCpp/64λ/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"C:/DevCpp/64λ/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = bank.exe
+CXXFLAGS = $(CXXINCS) -m32 -g3
+CFLAGS   = $(INCS) -m32 -g3 -g
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+KeyboardInput.o: KeyboardInput.c
+	$(CC) -c KeyboardInput.c -o KeyboardInput.o $(CFLAGS)
+
+maintain.o: maintain.c
+	$(CC) -c maintain.c -o maintain.o $(CFLAGS)
+
+configuration.o: configuration.c
+	$(CC) -c configuration.c -o configuration.o $(CFLAGS)
+
+state_trans.o: state_trans.c
+	$(CC) -c state_trans.c -o state_trans.o $(CFLAGS)
+
+strategy.o: strategy.c
+	$(CC) -c strategy.c -o strategy.o $(CFLAGS)
+
+FileInput.o: FileInput.c
+	$(CC) -c FileInput.c -o FileInput.o $(CFLAGS)
+
+outputmethod.o: outputmethod.c
+	$(CC) -c outputmethod.c -o outputmethod.o $(CFLAGS)
+
+DrawWindow.o: DrawWindow.c
+	$(CC) -c DrawWindow.c -o DrawWindow.o $(CFLAGS)
+
+AddClient.o: AddClient.c
+	$(CC) -c AddClient.c -o AddClient.o $(CFLAGS)
+
+open_door.o: open_door.c
+	$(CC) -c open_door.c -o open_door.o $(CFLAGS)
